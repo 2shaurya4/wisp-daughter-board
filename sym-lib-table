@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "AP2112K-3.3TRG1") (type "KiCad") (uri "${KIPRJMOD}/Components/AP2112K-3.3TRG1/AP2112K-3.3TRG1.kicad_sym") (options "") (descr ""))
+	(lib (name "DS04-254-2-04BK-SMT-TR") (type "KiCad") (uri "${KIPRJMOD}/Components/DS04_254_2_04BK_SMT_TR/DS04-254-2-04BK-SMT-TR.kicad_sym") (options "") (descr ""))
+	(lib (name "SM04B-GHS-TB") (type "KiCad") (uri "${KIPRJMOD}/Components/SM04B_GHS_TB/SM04B-GHS-TB.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS7A2033PYCJR") (type "KiCad") (uri "${KIPRJMOD}/Components/TPS7A2033PYCJR/TPS7A2033PYCJR.kicad_sym") (options "") (descr ""))
+	(lib (name "TS04-66-50-BK-160-SMT") (type "KiCad") (uri "${KIPRJMOD}/Components/TS04_66_50_BK_160_SMT/TS04-66-50-BK-160-SMT.kicad_sym") (options "") (descr ""))
+	(lib (name "USB4105-GF-A") (type "KiCad") (uri "${KIPRJMOD}/Components/USB4105_GF_A/USB4105-GF-A.kicad_sym") (options "") (descr ""))
+	(lib (name "USBLC6-2SC6") (type "KiCad") (uri "${KIPRJMOD}/Components/USBLC6_2SC6/USBLC6-2SC6.kicad_sym") (options "") (descr ""))
+)
