@@ -7,4 +7,5 @@
 	(lib (name "TS04-66-50-BK-160-SMT") (type "KiCad") (uri "${KIPRJMOD}/Components/TS04_66_50_BK_160_SMT/TS04-66-50-BK-160-SMT.kicad_sym") (options "") (descr ""))
 	(lib (name "USB4105-GF-A") (type "KiCad") (uri "${KIPRJMOD}/Components/USB4105_GF_A/USB4105-GF-A.kicad_sym") (options "") (descr ""))
 	(lib (name "USBLC6-2SC6") (type "KiCad") (uri "${KIPRJMOD}/Components/USBLC6_2SC6/USBLC6-2SC6.kicad_sym") (options "") (descr ""))
+	(lib (name "DWM3000TR13") (type "KiCad") (uri "${KIPRJMOD}/Components/DWM3000TR13/DWM3000TR13.kicad_sym") (options "") (descr ""))
 )
