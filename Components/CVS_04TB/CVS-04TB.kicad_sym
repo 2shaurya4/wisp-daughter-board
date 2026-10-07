@@ -1,28 +1,28 @@
 
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "DS04-254-2-04BK-SMT-TR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "S" (id 0) (at -2.54 10.16 0)
+  (symbol "CVS-04TB" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "S" (id 0) (at -5.08 13.97 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Value" "DS04-254-2-04BK-SMT-TR" (id 1) (at -2.54 -10.16 0)
+    (property "Value" "CVS-04TB" (id 1) (at -5.08 -21.59 0)
       (effects (font (size 1.27 1.27)) (justify top left))
     )
-    (property "Footprint" "DS04-254-2-04BK-SMT-TR:SW_DS04-254-2-04BK-SMT-TR" (id 2) (at 0 0 0)
+    (property "Footprint" "CVS-04TB:SW_CVS-04TB" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "PARTREV" "V0.0" (id 4) (at 0 0 0)
+    (property "PARTREV" "N/A" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "MANUFACTURER" "CUI Inc." (id 5) (at 0 0 0)
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "MAXIMUM_PACKAGE_HEIGHT" "4.86 mm" (id 6) (at 0 0 0)
+    (property "MAXIMUM_PACKAGE_HEIGHT" "1.75 mm" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "STANDARD" "Manufacturer Recommendations" (id 7) (at 0 0 0)
+    (property "MANUFACTURER" "Nidec Copal Electronics" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (symbol "DS04-254-2-04BK-SMT-TR_0_0"
+    (symbol "CVS-04TB_0_0"
       (polyline
         (pts (xy -2.54 7.62) (xy 2.794 9.7536)) (stroke (width 0.1524))
       )
@@ -71,19 +71,14 @@
       (polyline
         (pts (xy -2.54 -7.62) (xy -5.08 -7.62)) (stroke (width 0.1524))
       )
+      (rectangle (start -5.08 -20.32) (end 5.08 12.7)
+        (stroke (width 0.254)) (fill (type background))
+      )
       (pin passive line (at -7.62 7.62 0) (length 2.54)
         (name "~"
           (effects (font (size 1.016 1.016)))
         )
-        (number "1A"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin passive line (at 7.62 7.62 180.0) (length 2.54)
-        (name "~"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "1B"
+        (number "1"
           (effects (font (size 1.016 1.016)))
         )
       )
@@ -91,15 +86,7 @@
         (name "~"
           (effects (font (size 1.016 1.016)))
         )
-        (number "2A"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin passive line (at 7.62 2.54 180.0) (length 2.54)
-        (name "~"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "2B"
+        (number "2"
           (effects (font (size 1.016 1.016)))
         )
       )
@@ -107,15 +94,7 @@
         (name "~"
           (effects (font (size 1.016 1.016)))
         )
-        (number "3A"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin passive line (at 7.62 -2.54 180.0) (length 2.54)
-        (name "~"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "3B"
+        (number "3"
           (effects (font (size 1.016 1.016)))
         )
       )
@@ -123,7 +102,7 @@
         (name "~"
           (effects (font (size 1.016 1.016)))
         )
-        (number "4A"
+        (number "4"
           (effects (font (size 1.016 1.016)))
         )
       )
@@ -131,7 +110,63 @@
         (name "~"
           (effects (font (size 1.016 1.016)))
         )
-        (number "4B"
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 7.62 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -10.16 180.0) (length 2.54)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -12.7 180.0) (length 2.54)
+        (name "SHIELD__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -15.24 180.0) (length 2.54)
+        (name "SHIELD__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -17.78 180.0) (length 2.54)
+        (name "SHIELD__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S4"
           (effects (font (size 1.016 1.016)))
         )
       )
