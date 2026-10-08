@@ -9,4 +9,5 @@
 	(lib (name "PTS810_SJM_250_SMTR_LFS") (type "KiCad") (uri "${KIPRJMOD}/Components/PTS810_SJM_250_SMTR_LFS") (options "") (descr ""))
 	(lib (name "CVS_04TB") (type "KiCad") (uri "${KIPRJMOD}/Components/CVS_04TB") (options "") (descr ""))
 	(lib (name "wisp-daughter-board") (type "KiCad") (uri "C:/Users/Shaurya/Desktop/USC/TL/Wisp/wisp-daughter-board") (options "") (descr ""))
+	(lib (name "TPS7A2033PDBVR") (type "KiCad") (uri "${KIPRJMOD}/Components/TPS7A2033PDBVR") (options "") (descr ""))
 )

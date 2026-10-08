@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.4,
-          "width": 0.8
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -55,18 +55,6 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        [
-          "clearance|117065000|112100000|89c86d82-7cfa-463a-a74f-b746cdf76dc8|73a48587-4952-4081-9ecb-fb7584f2d5fd",
-          ""
-        ],
-        [
-          "clearance|119285000|126900000|aa127d54-68ac-4d2e-9053-d4c76591f132|b94c11b0-7056-42b6-a381-cc9d561fba0b",
-          ""
-        ],
-        [
-          "clearance|136800000|135040000|140e1a9c-6d70-4794-aed5-79ae7f487c02|f2441766-5609-4d45-aaef-01d29273b507",
-          ""
-        ],
         [
           "copper_edge_clearance|110019484|106798107|c18cdab3-cfdf-459e-8a61-6440188a9be5|97b44de8-b6f4-41b7-a7e3-cc90c051aba0",
           ""
@@ -729,7 +717,7 @@
         "uuid": "85757beb-17c9-443c-9e18-64256ca2136a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C4-6,#PWR24-25,U4",
     "variants": []
   },
   "sheets": [
